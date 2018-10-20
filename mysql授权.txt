@@ -1,0 +1,6 @@
+主机连接虚拟机上的mysql
+
+root使用123456从任何主机连接到mysql服务器
+
+grant all privileges on *.* to 'root'@'%' identified by '123456' 
+with grant option;

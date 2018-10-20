@@ -1,0 +1,8 @@
+# whereis nginx
+/ust/local/nginx/sbin
+# cd /usr/local/nginx/sbin
+
+启动 ./nginx
+停止 nginx -s stop
+重新加载配置  nginx -s reload
+退出  nginx -s quit

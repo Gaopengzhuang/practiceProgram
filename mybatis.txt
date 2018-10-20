@@ -1,0 +1,4 @@
+1、mybatis sql动态语句传入参数时（对于接口里的方法），
+需要给参数添加注解（@Param（“mapper.xml配置文件中使用的参数名”））
+使用foreach的collection为map时 @Param不需要添加
+2、foreach collection为Array或List的集合对象，Map的key键值
